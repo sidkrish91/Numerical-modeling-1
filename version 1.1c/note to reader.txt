@@ -1,0 +1,12 @@
+The folder version1 contains the matlab code implemented for solving a set of ODE's pertaining to 1D pseudo-homogeneous fixed bed reactors for the chemistry of CO2/CO/H2 for methanol production.
+Salient features of the code as summarised as below:
+a) tested for adiabatic conditions with laboratory conditions as specified in Vanden bussche and froment paper.
+b) the above mentioned authors kinetics was tested and simulated with the tested conditions as model parameters
+c) the kinetic data was considered as developed by vandenbussche 
+d) physical and thermodynamic data such as density, specific heat (of individual components and gas mixtures) was done for inlet conditions only. these parameters where assumed unchanging
+e) the code is able to reproduce data for inlet conditions of pressure=50Bar, T=493.2K. 
+f) unsteady state model implemented with FDM for discretizing
+
+note:
+the coding implemented is for adiabatic fixed bed reactor (temperature gradient is generated with heat of reaction as source. 
+

@@ -1,0 +1,8 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+dy_dz(1) = rho_bed * (r1) / (c_tot*u_gas); %change of methanol mole fraction with axial length                 %
+dy_dz(2) = rho_bed * (r1+r2)/ (c_tot*u_gas); %change of water mole fraction with axial length                 %
+dy_dz(3) = rho_bed * (r2)/ (c_tot*u_gas); %change of CO mole fraction with axial length                       %
+dy_dz(4) = rho_bed * (-r1-r2)/ (c_tot*u_gas); %change of CO2 mole fraction with axial length                  %
+dy_dz(5) = rho_bed * (-3*r1-r2)/ (c_tot*u_gas); %change of H2 mole fraction with axial length                 %
+dy_dz(6) = 0; %change of N2 mole fraction with axial length                                                  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
